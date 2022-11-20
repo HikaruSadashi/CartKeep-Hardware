@@ -10,7 +10,6 @@
 //SETUP HERE & SENDING SMS FUNCTION
 //DONT EXPOSE API KEYS LMFAO
 
-
 bool sendSMS(const char * body){
  
   std::stringstream url;
