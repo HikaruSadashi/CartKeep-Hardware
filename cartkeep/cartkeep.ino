@@ -37,10 +37,11 @@ void loop() {
     Serial.print(tempF);
     Serial.println("F");
 
-    /*
+    /* Old printing
     Serial.print("°C ~ ");
     Serial.println("°F");
     */
+
     int baseline = 70;
     if(humi > baseline){
       Serial.println("Message sent to phone, person blowing!!!");
