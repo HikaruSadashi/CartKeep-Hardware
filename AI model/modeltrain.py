@@ -34,5 +34,6 @@ def get_model():
     return model, x_train, y_train
 
 #run exportmodel file
-exec('exportModel.py', x_train)
+#exec('exportModel.py', tf_model, x_train, y_train)
+#^unsafe way of running file
 
