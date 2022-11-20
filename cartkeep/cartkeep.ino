@@ -55,7 +55,8 @@ void loop() {
 
   */
 
-  /*
-    To reset
+  /*  NOTES
+    To upload new sketch:
+    1. hold boot button then click en for enable to reset via RTS pin
   */
 }
